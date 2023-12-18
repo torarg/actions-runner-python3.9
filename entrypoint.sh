@@ -12,7 +12,7 @@ if [ -z $GITHUB_REPO_URL ]; then
         exit 1
 fi
 if [ -z $GITHUB_RUNNER_TOKEN ]; then
-        echo "error: GITHUB_RUNER_TOKEN environment variable not set!" >&2
+        echo "error: GITHUB_RUNNER_TOKEN environment variable not set!" >&2
         exit 1
 fi
 
